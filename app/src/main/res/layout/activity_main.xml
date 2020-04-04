@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="260dp"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edt_oval"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edt_oval"
+            android:layout_below="@+id/edtEmail"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/edtPassword"
+            android:background="@drawable/btn_oval"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btnLogin"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_oval"
+            android:text="Register" />
+
+
+</RelativeLayout>

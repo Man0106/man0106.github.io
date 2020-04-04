@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "411178176195",
+    "firebase_url": "https://car-e-cf9ff.firebaseio.com",
+    "project_id": "car-e-cf9ff",
+    "storage_bucket": "car-e-cf9ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411178176195:android:273c39e1bafc4a0dd51c76",
+        "android_client_info": {
+          "package_name": "com.example.car_e"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411178176195-vjklmfa7hevcdl5b75fh04t1i0p3o6kh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.car_e",
+            "certificate_hash": "d31fc49c1409c89a26562867402df1a36c2d05c6"
+          }
+        },
+        {
+          "client_id": "411178176195-t9dtold01tfnsghon41v9pe57003u9er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf00og2QCFCQbX_EPboLErlIKS2gTfjnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411178176195-t9dtold01tfnsghon41v9pe57003u9er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

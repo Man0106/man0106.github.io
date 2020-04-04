@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car-E</string>
+    <string name="default_notification_channel_id">Sucofindo</string>
+    <string-array name="Departemen">
+        <item>Inspeksi Teknik</item>
+        <item>Inspeksi Umum</item>
+        <item>Dukungan Bisnis</item>
+        <item>Pengujian</item>
+        <item>Konsultasi</item>
+    </string-array>
+</resources>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:context=".RegisterActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Nama"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:textSize="16sp"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <EditText
+        android:id="@+id/edtRegisterNama"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="4dp"
+        />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Email"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <EditText
+        android:id="@+id/edtRegisterEmail"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="4dp"
+        />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:text="Password"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <EditText
+        android:id="@+id/edtRegisterPassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Confirm Password"
+        android:gravity="center_vertical"
+        android:paddingLeft="4dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <EditText
+        android:id="@+id/edtRegisterConPassword"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:paddingStart="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Departemen"
+        android:gravity="center_vertical"
+        android:paddingStart="4dp"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="80dp"
+        />
+
+    <Spinner
+        android:id="@+id/SpDepartemen"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="80dp"
+        android:paddingStart="4dp" />
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="80dp"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>

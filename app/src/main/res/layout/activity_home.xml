@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+            <EditText
+                android:id="@+id/edtNama"
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="30dp"
+                android:hint="Nama Proyek"
+                android:textSize="24dp"/>
+
+
+
+            <EditText
+                android:id="@+id/edtAlamatAsal"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Lokasi"/>
+
+            <EditText
+                android:id="@+id/edtAlamatTujuan"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:hint="Dari"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mulai"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtTanggalBerangkat"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:text="Pilih Tanggal"
+                android:textSize="20dp"
+                android:gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sampai"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/txtTanggalSelesai"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:text="Pilih Tanggal"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                />
+
+            <RadioGroup
+                android:id="@+id/RGWay"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rdoOne"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:text="One Way"
+                android:onClick="RadioButtonClicked"/>
+
+            <RadioButton
+                android:id="@+id/rdoTwo"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:text="Two Way"
+                android:onClick="RadioButtonClicked"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/btnRequest"
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:text="Request" />
+
+            <TextView
+                android:id="@+id/txtnama"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:visibility="invisible"/>
+
+    </LinearLayout>
+
+</ScrollView>
