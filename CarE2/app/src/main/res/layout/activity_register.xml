@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        tools:context=".RegisterActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/sucofind"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/edtRegisterNama"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="70dp"
+                android:paddingLeft="4dp"
+                android:background="@drawable/edt_oval"
+                android:hint="Nama"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                />
+
+            <EditText
+                android:id="@+id/edtRegisterEmail"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/edt_oval"
+                android:hint="Email"
+                android:paddingStart="10dp"
+                />
+
+            <EditText
+                android:id="@+id/edtRegisterPassword"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:paddingLeft="4dp"
+                android:background="@drawable/edt_oval"
+                android:hint="Kata Sandi"
+                android:paddingStart="10dp"
+                />
+
+
+            <EditText
+                android:id="@+id/edtRegisterConPassword"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:paddingStart="4dp"
+                android:background="@drawable/edt_oval"
+                android:paddingLeft="10dp"
+                android:hint="Konfirmasi Kata Sandi"
+                />
+
+            <Spinner
+                android:id="@+id/SpDepartemen"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:paddingStart="4dp"
+                />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:text="Sign Up"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_oval"
+                />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>
